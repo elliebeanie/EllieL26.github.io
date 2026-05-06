@@ -2,24 +2,30 @@ body {
 
 	background-color: #D8E1E9;
 }
-
+.imageborder{
+	border:5px solid #748FB6;
+}
  .container {
 	display:grid;
 	grid-template-columns: 1fr 1fr 1fr;
 	padding: 3px;
-	display: flex;
 	justify-content: center;
 	align-items: center;
-}
-
+	text-align: center;
 .container div {
 	padding:10px;
 	margin:5px;
-}
-
+#HomePage{
+	h1, {color: #748FB6;
+	}
+#FinishedProducts
+{		background-color: #D8E1E9;}
 /*div {
 	border: 2px solid limegreen;
 }*/
+
+/div { border:2px #D66BA0;
+} 
 
 h1, p, li {
   
