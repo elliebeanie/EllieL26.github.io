@@ -8,23 +8,23 @@ body {
  .container {
 	display:grid;
 	grid-template-columns: 1fr 1fr 1fr;
+
 	padding: 3px;
 	justify-content: center;
 	align-items: center;
 	text-align: center;
+}
 .container div {
 	padding:10px;
 	margin:5px;
-#HomePage{
-	h1, {color: #748FB6;
+}
+#HomePage h1{ color: #748FB6;
 	}
 #FinishedProducts
 {		background-color: #D8E1E9;}
-/*div {
-	border: 2px solid limegreen;
-}*/
 
-/div { border:2px #D66BA0;
+
+div { border:2px #D66BA0;
 } 
 
 h1, p, li {
@@ -39,7 +39,7 @@ ul {
   margin: 0;
   padding: 0;
   overflow: hidden;
-  background-color: #333333;
+  background-color: #D66BA0;
 }
 
 ul li {
@@ -55,6 +55,6 @@ ul li a {
 }
 
 ul li a:hover {
-  background-color: #111111;
+  background-color: #85629B;
 }
 
