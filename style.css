@@ -5,25 +5,42 @@ body {
 .imageborder{
 	border:5px solid #748FB6;
 }
+
  .container {
 	display:grid;
 	grid-template-columns: 1fr 1fr 1fr;
+  
+  padding: 3px;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
 
-	padding: 3px;
-	justify-content: center;
-	align-items: center;
-	text-align: center;
+.containment{
+display:grid;
+grid-template-columns:1fr 1fr;
+
+padding: 3px;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+	
 }
 .container div {
 	padding:10px;
 	margin:5px;
 }
-#HomePage h1{ color: #748FB6;
+#IndexPage h1{ color: #748FB6;
 	}
-#FinishedProducts
-{		background-color: #D8E1E9;}
+#FinishedProducts h1
+{color: #748FB6;}
 
+#ProjectPlay h1{color: #748FB6;
+}
 
+#CurrentPage h1{ color: #748FB6;
+}
 div { border:2px #D66BA0;
 } 
 
